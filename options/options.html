@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="options.css"/>
+  <title>VFE settings</title>
+</head>
+
+<body>
+
+  <form>
+    <fieldset data-type="settings">
+      <legend>
+        Settings
+      </legend>
+      <fieldset>
+        <legend>
+          Download folder
+        </legend>
+        <label>downloads/</label><input name="downloadfolder" />
+      </fieldset>
+    </fieldset>
+    <fieldset data-type="menu">
+      <legend>
+        Context menu
+      </legend>
+      <textarea name="contextmenu"></textarea>
+    </fieldset>
+    <fieldset data-type="configuration">
+      <legend>
+        Configuration
+      </legend>
+      <fieldset>
+        <legend>
+          Comments
+        </legend>
+        <textarea name="comments"></textarea>
+      </fieldset>
+      <fieldset>
+        <legend>
+          Mock data
+        </legend>
+        <textarea name="mockdata"></textarea>
+      </fieldset>
+      <fieldset>
+        <legend>
+          MDN
+        </legend>
+        <textarea name="mdn"></textarea>
+      </fieldset>
+      <fieldset>
+        <legend>
+          Snippets
+        </legend>
+        <textarea name="snippets"></textarea>
+      </fieldset>
+    </fieldset>
+    <div class="buttons">
+      <button type="button" data-action="import">Import</button>
+      <button type="button" data-action="export">Export</button>
+      <button type="button" class="clear" data-action="clear">Clear</button>
+      <button type="button" class="yes" data-action="yes">Yes</button>
+      <button type="button" class="no" data-action="no">No</button>  
+    </div>
+  </form>
+  
+  <script src="../shared/data.js"></script>
+  <script src="options.js"></script>
+
+</body>
+</html>

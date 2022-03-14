@@ -1,0 +1,35 @@
+{
+  "manifest_version": 2,
+  "name": "Stackoverflow",
+  "version": "0.2",
+  "description": "Context menu SO helper",
+  "background": {
+    "scripts": [
+      "background/menu.js",
+      "background/buildMenu.js"
+    ]
+  },
+  "icons": {
+    "128": "icons/icon-128.png",
+    "64": "icons/icon-64.png",
+    "48": "icons/icon-48.png"
+  },
+  "content_scripts": [{
+    "matches": ["*://*.stackoverflow.com/*"],
+    "js": [
+      "shared/data.js",
+      "content/stackoverflow-helper.js"
+    ]
+  }],
+  "options_ui": {
+    "page": "options/options.html",
+    "browser_style": true
+  },
+  "permissions": [
+    "menus",
+    "clipboardRead",
+    "clipboardWrite",
+    "downloads",
+    "storage"
+  ]
+}
