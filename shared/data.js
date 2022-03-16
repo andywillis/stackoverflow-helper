@@ -23,14 +23,17 @@ const data = {
       split: '[`split`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)',
       templateString: '[Template/string literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)'
     },
+
     operators: {
       destructuringAssignment: '[Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)',
       mathRandom: '[`Math.random`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)',
       spreadSyntax: '[Spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)'
     },
+
     functions: {
       restParameters: '[Rest parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)'
     },
+
     arrays: {
       every: '[`every`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)',
       find: '[`find`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)',
@@ -43,12 +46,16 @@ const data = {
       splice: '[`splice`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)',
       some: '[`some`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)'
     },
+
     objects: {
       objectEntries: '[`Object.entries`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Object/entries)',
       objectKeys: '[`Object.keys`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Object/keys)',
       objectValues: '[`Object.values`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Object/values)'
     },
-    promises: {
+
+    async: {
+      asyncawait: '[`async/await`](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await)',
+      fetch: '[`fetch`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)',
       promiseAll: '[`Promise.all`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all)'
     },
 
@@ -67,6 +74,8 @@ const data = {
   snippets: {
 
     react: {
+
+      documentation: '[Here\'s some documentation on how to create a React snippet](https://meta.stackoverflow.com/a/338538/1377002).',
 
       reactFunction: `
 <!-- begin snippet: js hide: false console: true babel: true -->
@@ -87,7 +96,8 @@ const data = {
           </button>
         </div>
       );
-    };
+
+    }
 
     ReactDOM.render(
       <Example />,
@@ -130,7 +140,7 @@ const data = {
         );
       }
 
-    };
+    }
 
     ReactDOM.render(
       <Example />,

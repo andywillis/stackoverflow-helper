@@ -158,7 +158,13 @@ const menu = [
   },
 
   // Snippets
-
+  {
+    id: 'documentation',
+    title: 'Snippet documentation',
+    parentId: 'snippets',
+    menuId: 'react',
+    dataType: 'snippets'
+  },
   {
     id: 'reactClass',
     title: 'React class',
@@ -200,15 +206,29 @@ const menu = [
   // Promises
 
   {
-    id: 'promises',
-    title: 'Promises',
+    id: 'async',
+    title: 'Async',
     parentId: 'mdn'
+  },
+  {
+    id: 'asyncawait',
+    title: 'async/await',
+    parentId: 'async',
+    menuId: 'async',
+    dataType: 'mdn'
+  },
+  {
+    id: 'fetch',
+    title: 'Fetch',
+    parentId: 'async',
+    menuId: 'async',
+    dataType: 'mdn'
   },
   {
     id: 'promiseAll',
     title: 'Promise.all',
-    parentId: 'promises',
-    menuId: 'promises',
+    parentId: 'async',
+    menuId: 'async',
     dataType: 'mdn'
   },
 

@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Stackoverflow",
-  "version": "0.12",
+  "version": "0.13",
   "description": "Context menu SO helper",
   "background": {
     "scripts": [
