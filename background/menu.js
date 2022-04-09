@@ -107,6 +107,13 @@ const menu = [
     parentId: 'mdn'
   },
   {
+    id: 'addEventListener',
+    title: 'addEventListener',
+    parentId: 'dom',
+    menuId: 'dom',
+    dataType: 'mdn'
+  },
+  {
     id: 'dataAttributes',
     title: 'Data attributes',
     parentId: 'dom',

@@ -11,6 +11,7 @@ const data = {
 
   mdn: {
     dom: {
+      addEventListener: '[`addEventListener`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)',
       eventDelegation: '[Event delegation](https://dmitripavlutin.com/javascript-event-delegation/)',
       insertAdjacentHTML: '[`insertAdjacentHTML`](https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML)',
       querySelector: '[`querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)',
@@ -64,10 +65,10 @@ const data = {
   mockdata: {
     json: {
       randomUser: 'https://randomuser.me/api/?results=10',
-      jsonApi: 'https://jsonplaceholder.typicode.com/posts'  
+      jsonApi: 'https://jsonplaceholder.typicode.com/posts'
     },
     image: {
-      dummyImage: 'https://randomuser.me/api/?results=10'
+      dummyImage: 'https://dummyimage.com/600x400/000/fff'
     }
   },
 
