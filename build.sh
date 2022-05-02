@@ -1,0 +1,1 @@
+ web-ext build --overwrite-dest --ignore-files package.json package-lock.json README.md rundev.sh build.sh sign.sh 
