@@ -2,4 +2,4 @@
 
 A web extension that allows gives a functionality boost to SO.
 
-Comments, access to certain MDN documentation, React snippets, and JSON placeholders.
+Comments, access to MDN documentation, React snippets, JSON placeholders, and a CSS update.

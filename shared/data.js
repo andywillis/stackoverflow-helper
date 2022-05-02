@@ -5,7 +5,8 @@ const data = {
     main: {
       mainComment: 'Welcome to SO. You might find reading the site [help section](https://stackoverflow.com/help) useful when it comes to [asking a good question](https://stackoverflow.com/help/how-to-ask), and this [question checklist](https://meta.stackoverflow.com/questions/260648/stack-overflow-question-checklist). Code that you have worked on to solve the problem should include a [mcve], and be included in your question.',
       homeworkComment: 'Stack Overflow will not do your coursework for you. Please also review your institution\'s policies on academic integrity, as this sort of question (dumping here with no discernible effort on your part) would normally constitute a violation and carry generally high penalties.',
-      addCodeComment: 'Please add the code you\'ve attempted to your question as a [mcve].'
+      addCodeComment: 'Please add the code you\'ve attempted to your question as a [mcve].',
+      imagesComment: '[Why you shouldn\'t use images instead of code](https://meta.stackoverflow.com/a/285557/1377002).'
     }
   },
 

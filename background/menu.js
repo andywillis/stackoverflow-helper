@@ -203,6 +203,13 @@ const menu = [
     dataType: 'comments'
   },
   {
+    id: 'imagesComment',
+    title: 'Don\'t use images',
+    parentId: 'comments',
+    menuId: 'main',
+    dataType: 'comments'
+  },
+  {
     id: 'mainComment',
     title: 'Main',
     parentId: 'comments',

@@ -1,6 +1,6 @@
 {
   "name": "stackoverflow-helper",
-  "version": "0.16",
+  "version": "0.20",
   "description": "Context menu SO helper",
   "scripts": {
     "webext": "web-ext run --firefox=\"/c/Program Files/Firefox Developer Edition/firefox.exe\" --firefox-profile=\"/c/Users/accou/AppData/Roaming/Mozilla/Firefox/Profiles/svsh6t5r.Dev\""
@@ -11,9 +11,9 @@
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.2",
-    "eslint-plugin-no-unsanitized": "^2.0.1"
+    "eslint-plugin-no-unsanitized": "^4.0.1"
   },
   "dependencies": {
-    "web-ext": "^6.7.0"
+    "web-ext": "^5.1.0"
   }
 }
