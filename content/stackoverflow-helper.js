@@ -8,14 +8,13 @@
 
   // Moving the tags
 
-  function qs(selector) {
-    return document.querySelector(selector);
-  }
-
   function moveTags() {
-    const tagWrapper = qs('.post-taglist').cloneNode(true);
-    const sidebar = qs('#sidebar');
-    sidebar.insertAdjacentElement('afterbegin', tagWrapper);    
+    const tags = document.querySelectorAll('.post-taglist .post-tag');
+    const sidebar = document.querySelector('#sidebar');
+    const div = document.createElement('div');
+    div.className = 'sidebar-tags';
+    tags.forEach(tag => div.appendChild(tag.cloneNode(true)));
+    sidebar.insertAdjacentElement('afterbegin', div);
   }
 
   moveTags();
