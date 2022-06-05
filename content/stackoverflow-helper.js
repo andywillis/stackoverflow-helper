@@ -1,8 +1,8 @@
 (function () {
 
-  browser.storage.onChanged.addListener(function (changes, area) {
-    console.log(JSON.stringify(changes), area);
-  });
+  // browser.storage.onChanged.addListener(function (changes, area) {
+  //   console.log(JSON.stringify(changes), area);
+  // });
 
   browser.storage.local.set({ data: 'a' });
 

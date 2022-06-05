@@ -1,54 +1,47 @@
-* {
-  font-size: 1.02em;
-}
-
-fieldset {
-  margin-top: 1em;
-  padding: 0.5em;
-}
-
-fieldset fieldset {
-  background-color: #efefef;
-  padding: 1em;
-}
-
-legend  {
-  font-weight: 600;
-}
-
 input {
   width: 100%;
+  font-size: 1em;
 }
 
-textarea {
+table {
+  margin: 0.5em 0 0.5em 0;
   width: 100%;
-  height: 150px;
+  font-size: 1.4em;
+  border-collapse: collapse;
+  border: 1px solid black;
 }
 
-.buttons {
-  text-align: center;
+table input {
+  display: inline-block;
+  width: auto;
+}
+
+td {
+  border: 1px solid black;
+  padding: 1em;
+  width: 50%;
 }
 
 button {
   margin: 0.5em 0.5em 0.5em 0;
-  font-size: 1.1em;
-  width: 100px;
+  width: 140px;
   height: 40px;
   text-align: center;
-  background-color: #efefef;
+  background-color: #abcddd;
+  font-size: 1.4em;
   border-radius: 0.5em;
 }
 
-button:hover {
-  background-color: #cfcfcf;
-  cursor: pointer;
-}
-
 .yes, .no {
+  width: 70px;
   background-color: #abddcd;
   visibility: hidden;
 }
 
 .visible {
   visibility: visible;
+}
+
+.clear {
+  background-color: rgb(199, 154, 154);  
 }
