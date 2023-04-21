@@ -181,29 +181,34 @@ const menu = [
   {
     id: 'loopsAndIteration',
     title: 'Loops and iteration',
-    parentId: 'loops',
-    menuId: 'loops',
+    parentId: 'mdn'
+  },
+  {
+    id: 'loopsDocumentation',
+    title: 'Loops and iteration',
+    parentId: 'loopsAndIteration',
+    menuId: 'loopsAndIteration',
     dataType: 'mdn'
   },
   {
     id: 'simpleLoop',
     title: 'Simple loop',
     parentId: 'loops',
-    menuId: 'loops',
+    menuId: 'loopsAndIteration',
     dataType: 'mdn'
   },
   {
     id: 'forIn',
     title: 'for...in loop',
-    parentId: 'loops',
-    menuId: 'loops',
+    parentId: 'loopsAndIteration',
+    menuId: 'loopsAndIteration',
     dataType: 'mdn'
   },
   {
     id: 'forOf',
     title: 'for...of loop',
-    parentId: 'loops',
-    menuId: 'loops',
+    parentId: 'loopsAndIteration',
+    menuId: 'loopsAndIteration',
     dataType: 'mdn'
   },
 
@@ -230,7 +235,7 @@ const menu = [
     dataType: 'snippets'
   },
 
-  // Coments
+  // Comments
   {
     id: 'addCodeComment',
     title: 'Add code',
@@ -376,7 +381,7 @@ const menu = [
     dataType: 'mdn'
   },
 
-  // Modk data
+  // Mock data
 
   {
     id: 'jsonApi',

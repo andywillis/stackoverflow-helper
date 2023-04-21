@@ -11,6 +11,7 @@ const data = {
   },
 
   mdn: {
+
     dom: {
       addEventListener: '[`addEventListener`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)',
       closest: '[`closest`](https://developer.mozilla.org/en-US/docs/Web/API/Element/closest)',
@@ -63,11 +64,11 @@ const data = {
       promiseAll: '[`Promise.all`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all)'
     },
 
-    loops: {
-      loopsAndIteration: '[Loops and iteration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)',
+    loopsAndIteration: {
+      loopsDocumentation: '[Loops and iteration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)',
       simpleLoop: '[Simple loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for_statement)',
-      forIn: '[for...in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for...in_statement)',
-      forOf: '[for..of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration##for...of_statement)'
+      forIn: '[`for...in`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for...in_statement)',
+      forOf: '[`for..of`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration##for...of_statement)'
     }
 
   },
