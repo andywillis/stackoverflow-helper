@@ -3,9 +3,9 @@ const data = {
 
   comments: {
     main: {
-      mainComment: 'Welcome to SO. You might find reading the site [help section](https://stackoverflow.com/help) useful when it comes to [asking a good question](https://stackoverflow.com/help/how-to-ask), and this [question checklist](https://meta.stackoverflow.com/questions/260648/stack-overflow-question-checklist). Code that you have worked on to solve the problem should include a [mcve], and be included in your question.',
-      homeworkComment: 'Stack Overflow will not do your coursework for you. Please also review your institution\'s policies on academic integrity, as this sort of question (dumping here with no discernible effort on your part) would normally constitute a violation and carry generally high penalties.',
-      addCodeComment: 'Please add the code you\'ve attempted to your question as a [mcve].',
+      mainComment: 'Welcome to SO. Code that you have worked on to solve the problem be included in your question as a [mcve]. You can use the snippet tool `[<>]` in the question edit toolbar to help you. You might find reading the site [help section](https://stackoverflow.com/help) useful when it comes to [asking a good question](https://stackoverflow.com/help/how-to-ask), and this [question checklist](https://meta.stackoverflow.com/questions/260648/stack-overflow-question-checklist).',
+      homeworkComment: 'Stack Overflow will not do your coursework for you. Please also review your institution\'s policies on academic integrity, as this sort of question (no discernible effort on your part) would normally constitute a violation and possiblly carry penalties.',
+      addCodeComment: 'Please add the code you\'ve attempted to your question as a [mcve]. You can use the snippet tool `[<>]` in the question edit toolbar to help you.',
       imagesComment: '[Why you shouldn\'t use images instead of code](https://meta.stackoverflow.com/a/285557/1377002).'
     }
   },
@@ -13,11 +13,13 @@ const data = {
   mdn: {
     dom: {
       addEventListener: '[`addEventListener`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)',
+      closest: '[`closest`](https://developer.mozilla.org/en-US/docs/Web/API/Element/closest)',
+      dataAttributes: '[Data attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)',
       eventDelegation: '[Event delegation](https://dmitripavlutin.com/javascript-event-delegation/)',
       insertAdjacentHTML: '[`insertAdjacentHTML`](https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML)',
+      matches: '[`matches`](https://developer.mozilla.org/en-US/docs/Web/API/Element/matches)',
       querySelector: '[`querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)',
-      querySelectorAll: '[`querySelectorAll`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll)',
-      dataAttributes: '[Data attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)'
+      querySelectorAll: '[`querySelectorAll`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll)'
     },
 
     strings: {
@@ -60,6 +62,13 @@ const data = {
       fetch: '[`fetch`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)',
       promiseAll: '[`Promise.all`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all)'
     },
+
+    loops: {
+      loopsAndIteration: '[Loops and iteration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)',
+      simpleLoop: '[Simple loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for_statement)',
+      forIn: '[for...in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for...in_statement)',
+      forOf: '[for..of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration##for...of_statement)'
+    }
 
   },
 
