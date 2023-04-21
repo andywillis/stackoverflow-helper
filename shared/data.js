@@ -17,7 +17,7 @@ const data = {
       dataAttributes: '[Data attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)',
       eventDelegation: '[Event delegation](https://dmitripavlutin.com/javascript-event-delegation/)',
       insertAdjacentHTML: '[`insertAdjacentHTML`](https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML)',
-      matches: '[`matches`](https://developer.mozilla.org/en-US/docs/Web/API/Element/matches)'
+      matches: '[`matches`](https://developer.mozilla.org/en-US/docs/Web/API/Element/matches)',
       querySelector: '[`querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)',
       querySelectorAll: '[`querySelectorAll`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll)'
     },

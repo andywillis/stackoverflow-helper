@@ -1,6 +1,6 @@
 {
   "name": "stackoverflow-helper",
-  "version": "0.23",
+  "version": "0.24",
   "description": "Context menu SO helper",
   "scripts": {
     "webext": "web-ext run --firefox=\"/c/Program Files/Firefox Developer Edition/firefox.exe\" --firefox-profile=\"/c/Users/accou/AppData/Roaming/Mozilla/Firefox/Profiles/svsh6t5r.Dev\""
