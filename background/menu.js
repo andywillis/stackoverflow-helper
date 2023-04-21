@@ -114,6 +114,13 @@ const menu = [
     dataType: 'mdn'
   },
   {
+    id: 'closest',
+    title: 'closest',
+    parentId: 'dom',
+    menuId: 'dom',
+    dataType: 'mdn'
+  },
+  {
     id: 'dataAttributes',
     title: 'Data attributes',
     parentId: 'dom',
@@ -130,6 +137,13 @@ const menu = [
   {
     id: 'insertAdjacentHTML',
     title: 'insertAdjacentHTML',
+    parentId: 'dom',
+    menuId: 'dom',
+    dataType: 'mdn'
+  },
+  {
+    id: 'matches',
+    title: 'matches',
     parentId: 'dom',
     menuId: 'dom',
     dataType: 'mdn'
@@ -161,6 +175,35 @@ const menu = [
     title: 'Rest parameters',
     parentId: 'functions',
     menuId: 'functions',
+    dataType: 'mdn'
+  },
+
+  {
+    id: 'loopsAndIteration',
+    title: 'Loops and iteration',
+    parentId: 'loops',
+    menuId: 'loops',
+    dataType: 'mdn'
+  },
+  {
+    id: 'simpleLoop',
+    title: 'Simple loop',
+    parentId: 'loops',
+    menuId: 'loops',
+    dataType: 'mdn'
+  },
+  {
+    id: 'forIn',
+    title: 'for...in loop',
+    parentId: 'loops',
+    menuId: 'loops',
+    dataType: 'mdn'
+  },
+  {
+    id: 'forOf',
+    title: 'for...of loop',
+    parentId: 'loops',
+    menuId: 'loops',
     dataType: 'mdn'
   },
 
