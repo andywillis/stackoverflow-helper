@@ -111,16 +111,14 @@ const data = {
 
     }
 
-    ReactDOM.render(
-      <Example />,
-      document.getElementById('react')
-    );
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(<Example />);
 
 <!-- language: lang-html -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/17.0.2/umd/react.production.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.production.min.js"></script>
-    <div id="react"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.development.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.development.min.js"></script>
+    <div id="root"></div>
 
 <!-- end snippet -->`,
 
@@ -154,17 +152,14 @@ const data = {
 
     }
 
-    ReactDOM.render(
-      <Example />,
-      document.getElementById('react')
-    );
-
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(<Example />);
 
 <!-- language: lang-html -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/17.0.2/umd/react.production.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.production.min.js"></script>
-    <div id="react"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.development.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.development.min.js"></script>
+    <div id="root"></div>
 
 
 <!-- end snippet -->`
