@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 const menu = [
 
-  // Main heading
+  // Level 1
   {
     id: 'comments',
     title: 'Comments',
@@ -19,7 +19,7 @@ const menu = [
     title: 'Snippets'
   },
 
-  // Subheadings
+  // Level 2
 
   // Comments
   {
@@ -53,16 +53,49 @@ const menu = [
 
   // MDN
 
-  // Arrays
-
-  // Group heading object
-  // id is `menuId` in the subheading object
+  // Level 2
   {
     id: 'arrays',
     title: 'Arrays',
     parentId: 'mdn'
   },
+  {
+    id: 'async',
+    title: 'Async',
+    parentId: 'mdn'
+  },
+  {
+    id: 'dom',
+    title: 'DOM',
+    parentId: 'mdn'
+  },
+  {
+    id: 'functions',
+    title: 'Functions',
+    parentId: 'mdn'
+  },
+  {
+    id: 'loopsAndIteration',
+    title: 'Loops and iteration',
+    parentId: 'mdn'
+  },
+  {
+    id: 'objects',
+    title: 'Objects',
+    parentId: 'mdn'
+  },
+  {
+    id: 'operators',
+    title: 'Operators',
+    parentId: 'mdn'
+  },
+  {
+    id: 'strings',
+    title: 'Strings',
+    parentId: 'mdn'
+  },
 
+  // Level 3
   {
     id: 'every',
     title: 'every',
@@ -141,16 +174,34 @@ const menu = [
     dataType: 'mdn'
   },
 
-  // DOM
+  // Async/await/Promises
 
-  // Group heading object
-  // id is `menuId` in the subheading object
+  // Level 3
   {
-    id: 'dom',
-    title: 'DOM',
-    parentId: 'mdn'
+    id: 'asyncawait',
+    title: 'async/await',
+    parentId: 'async',
+    menuId: 'async',
+    dataType: 'mdn'
+  },
+  {
+    id: 'usingFetch',
+    title: 'Using Fetch',
+    parentId: 'async',
+    menuId: 'async',
+    dataType: 'mdn'
+  },
+  {
+    id: 'promiseAll',
+    title: 'Promise.all',
+    parentId: 'async',
+    menuId: 'async',
+    dataType: 'mdn'
   },
 
+  // DOM
+
+  // Level 3
   {
     id: 'addEventListener',
     title: 'addEventListener',
@@ -215,16 +266,9 @@ const menu = [
     dataType: 'mdn'
   },
 
-  // functions
+  // Functions
 
-  // Group heading object
-  // id is `menuId` in the subheading object
-  {
-    id: 'functions',
-    title: 'Functions',
-    parentId: 'mdn'
-  },
-
+  // Level 3
   {
     id: 'restParameters',
     title: 'Rest parameters',
@@ -233,11 +277,9 @@ const menu = [
     dataType: 'mdn'
   },
 
-  {
-    id: 'loopsAndIteration',
-    title: 'Loops and iteration',
-    parentId: 'mdn'
-  },
+  // Loops and iteration
+
+  // Level 3
   {
     id: 'loopsDocumentation',
     title: 'Loops and iteration',
@@ -267,65 +309,9 @@ const menu = [
     dataType: 'mdn'
   },
 
-  // Snippets
-  {
-    id: 'documentation',
-    title: 'Snippet documentation',
-    parentId: 'snippets',
-    menuId: 'react',
-    dataType: 'snippets'
-  },
-  {
-    id: 'reactClass',
-    title: 'React class',
-    parentId: 'snippets',
-    menuId: 'react',
-    dataType: 'snippets'
-  },
-  {
-    id: 'reactFunction',
-    title: 'React function',
-    parentId: 'snippets',
-    menuId: 'react',
-    dataType: 'snippets'
-  },
-
-  // Promises
-
-  {
-    id: 'async',
-    title: 'Async',
-    parentId: 'mdn'
-  },
-  {
-    id: 'asyncawait',
-    title: 'async/await',
-    parentId: 'async',
-    menuId: 'async',
-    dataType: 'mdn'
-  },
-  {
-    id: 'fetch',
-    title: 'Fetch',
-    parentId: 'async',
-    menuId: 'async',
-    dataType: 'mdn'
-  },
-  {
-    id: 'promiseAll',
-    title: 'Promise.all',
-    parentId: 'async',
-    menuId: 'async',
-    dataType: 'mdn'
-  },
-
   // Objects
 
-  {
-    id: 'objects',
-    title: 'Objects',
-    parentId: 'mdn'
-  },
+  // Level 3
   {
     id: 'objectEntries',
     title: 'Object.entries',
@@ -350,11 +336,7 @@ const menu = [
 
   // Operators
 
-  {
-    id: 'operators',
-    title: 'Operators',
-    parentId: 'mdn'
-  },
+  // Level 3
   {
     id: 'destructuringAssignment',
     title: 'Destructuring assignment',
@@ -379,11 +361,7 @@ const menu = [
 
   // Strings
 
-  {
-    id: 'strings',
-    title: 'Strings',
-    parentId: 'mdn'
-  },
+  // Level 3
   {
     id: 'match',
     title: 'match',
@@ -406,8 +384,34 @@ const menu = [
     dataType: 'mdn'
   },
 
+  // Snippets
+
+  // Level 2
+  {
+    id: 'documentation',
+    title: 'Snippet documentation',
+    parentId: 'snippets',
+    menuId: 'react',
+    dataType: 'snippets'
+  },
+  {
+    id: 'reactClass',
+    title: 'React class',
+    parentId: 'snippets',
+    menuId: 'react',
+    dataType: 'snippets'
+  },
+  {
+    id: 'reactFunction',
+    title: 'React function',
+    parentId: 'snippets',
+    menuId: 'react',
+    dataType: 'snippets'
+  },
+
   // Mock data
 
+  // Level 2
   {
     id: 'jsonApi',
     title: 'JSON API',

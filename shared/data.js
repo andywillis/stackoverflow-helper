@@ -1,8 +1,10 @@
 // eslint-disable-next-line no-unused-vars
 const data = {
 
+  // Heading
   comments: {
 
+    // Subheading
     main: {
       mainComment: 'Welcome to SO. Code that you have worked on to solve the problem be included in your question as a [mcve]. You can use the snippet tool `[<>]` in the question edit toolbar to help you. You might find reading the site [help section](https://stackoverflow.com/help) useful when it comes to [asking a good question](https://stackoverflow.com/help/how-to-ask), and this [question checklist](https://meta.stackoverflow.com/questions/260648/stack-overflow-question-checklist).',
       homeworkComment: 'Stack Overflow will not do your coursework for you. Please also review your institution\'s policies on academic integrity, as this sort of question (no discernible effort on your part) would normally constitute a violation and possibly carry penalties.',
@@ -12,8 +14,10 @@ const data = {
 
   },
 
+  // Heading
   mdn: {
 
+    // Subheading
     arrays: {
       every: '[`every`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)',
       filter: '[`filter`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)',
@@ -28,12 +32,14 @@ const data = {
       splice: '[`splice`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)'
     },
 
+    // Subheading
     async: {
       asyncawait: '[`async/await`](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await)',
-      fetch: '[`fetch`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)',
+      usingFetch: '[`fetch`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)',
       promiseAll: '[`Promise.all`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all)'
     },
 
+    // Subheading
     dom: {
       addEventListener: '[`addEventListener`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)',
       classList: '[`classList`](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList)',
@@ -46,10 +52,12 @@ const data = {
       querySelectorAll: '[`querySelectorAll`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll)'
     },
 
+    // Subheading
     functions: {
       restParameters: '[Rest parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)'
     },
 
+    // Subheading
     loopsAndIteration: {
       loopsDocumentation: '[Loops and iteration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)',
       simpleLoop: '[Simple loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for_statement)',
@@ -57,18 +65,21 @@ const data = {
       forOf: '[`for..of`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration##for...of_statement)'
     },
 
+    // Subheading
     objects: {
       objectEntries: '[`Object.entries`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Object/entries)',
       objectKeys: '[`Object.keys`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Object/keys)',
       objectValues: '[`Object.values`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Object/values)'
     },
 
+    // Subheading
     operators: {
       destructuringAssignment: '[Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)',
       mathRandom: '[`Math.random`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)',
       spreadSyntax: '[Spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)'
     },
 
+    // Subheading
     strings: {
       match: '[`match`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match)',
       split: '[`split`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)',
@@ -77,12 +88,15 @@ const data = {
 
   },
 
+  // Heading
   mockdata: {
 
+    // Subheading
     image: {
       dummyImage: 'https://dummyimage.com/600x400/000/fff'
     },
 
+    // Subheading
     json: {
       randomUser: 'https://randomuser.me/api/?results=10',
       jsonApi: 'https://jsonplaceholder.typicode.com/posts'
@@ -90,8 +104,10 @@ const data = {
 
   },
 
+  // Heading
   snippets: {
 
+    // Subheading
     react: {
 
       documentation: '[Here\'s some documentation on how to create a React snippet](https://meta.stackoverflow.com/a/338538/1377002).',
@@ -136,11 +152,9 @@ const data = {
     <div id="root"></div>
 
 
-<!-- end snippet -->`
-    }
-  },
+<!-- end snippet -->`,
 
-  reactFunction: `
+      reactFunction: `
 <!-- begin snippet: js hide: false console: true babel: true -->
 
 <!-- language: lang-js -->
@@ -172,5 +186,9 @@ const data = {
     <div id="root"></div>
 
 <!-- end snippet -->`
+
+    }
+
+  }
 
 };
