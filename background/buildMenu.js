@@ -25,7 +25,15 @@
 
   menu.forEach(item => {
 
-    const { id, title, parentId, menuId, dataType } = item;
+    const {
+      id,
+      title,
+      parentId,
+      dataLocation: {
+        heading,
+        subheading
+      } = {}
+    } = item;
 
     browser.menus.create({
       id,
@@ -33,7 +41,7 @@
       parentId,
       contexts: ['all'],
       documentUrlPatterns,
-      onclick: () => updateSoElement({ menuId, dataType, id })
+      onclick: () => updateSoElement({ heading, subheading, id })
     }, onCreated);
 
   });
