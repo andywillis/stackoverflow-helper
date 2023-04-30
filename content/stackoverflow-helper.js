@@ -21,10 +21,10 @@
 
   // Pasting
 
-  function paste({ menuId, dataType, id }) {
+  function paste({ heading, subheading, id }) {
     const active = document.activeElement;
     const el = document.createElement('textarea');
-    el.value = data[dataType][menuId][id];
+    el.value = data[heading][subheading][id];
     el.style.position = 'fixed';
     el.style.left = '-999999px';
     el.style.top = '-999999px';
