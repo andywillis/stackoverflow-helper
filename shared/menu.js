@@ -1,14 +1,10 @@
 // eslint-disable-next-line no-unused-vars
 const menu = [
 
-  // Main
+  // Main heading
   {
     id: 'comments',
     title: 'Comments',
-  },
-  {
-    id: 'snippets',
-    title: 'Snippets'
   },
   {
     id: 'mdn',
@@ -18,16 +14,55 @@ const menu = [
     id: 'mockdata',
     title: 'Mock data',
   },
+  {
+    id: 'snippets',
+    title: 'Snippets'
+  },
+
+  // Subheadings
+
+  // Comments
+  {
+    id: 'addCodeComment',
+    title: 'Add code',
+    parentId: 'comments',
+    menuId: 'main',
+    dataType: 'comments'
+  },
+  {
+    id: 'homeworkComment',
+    title: 'Homework',
+    parentId: 'comments',
+    menuId: 'main',
+    dataType: 'comments'
+  },
+  {
+    id: 'imagesComment',
+    title: 'Don\'t use images',
+    parentId: 'comments',
+    menuId: 'main',
+    dataType: 'comments'
+  },
+  {
+    id: 'mainComment',
+    title: 'Main',
+    parentId: 'comments',
+    menuId: 'main',
+    dataType: 'comments'
+  },
 
   // MDN
 
   // Arrays
 
+  // Group heading object
+  // id is `menuId` in the subheading object
   {
     id: 'arrays',
     title: 'Arrays',
     parentId: 'mdn'
   },
+
   {
     id: 'every',
     title: 'every',
@@ -52,6 +87,13 @@ const menu = [
   {
     id: 'forEach',
     title: 'forEach',
+    parentId: 'arrays',
+    menuId: 'arrays',
+    dataType: 'mdn'
+  },
+  {
+    id: 'includes',
+    title: 'includes',
     parentId: 'arrays',
     menuId: 'arrays',
     dataType: 'mdn'
@@ -101,14 +143,24 @@ const menu = [
 
   // DOM
 
+  // Group heading object
+  // id is `menuId` in the subheading object
   {
     id: 'dom',
     title: 'DOM',
     parentId: 'mdn'
   },
+
   {
     id: 'addEventListener',
     title: 'addEventListener',
+    parentId: 'dom',
+    menuId: 'dom',
+    dataType: 'mdn'
+  },
+  {
+    id: 'classList',
+    title: 'classList',
     parentId: 'dom',
     menuId: 'dom',
     dataType: 'mdn'
@@ -165,11 +217,14 @@ const menu = [
 
   // functions
 
+  // Group heading object
+  // id is `menuId` in the subheading object
   {
     id: 'functions',
     title: 'Functions',
     parentId: 'mdn'
   },
+
   {
     id: 'restParameters',
     title: 'Rest parameters',
@@ -233,36 +288,6 @@ const menu = [
     parentId: 'snippets',
     menuId: 'react',
     dataType: 'snippets'
-  },
-
-  // Comments
-  {
-    id: 'addCodeComment',
-    title: 'Add code',
-    parentId: 'comments',
-    menuId: 'main',
-    dataType: 'comments'
-  },
-  {
-    id: 'homeworkComment',
-    title: 'Homework',
-    parentId: 'comments',
-    menuId: 'main',
-    dataType: 'comments'
-  },
-  {
-    id: 'imagesComment',
-    title: 'Don\'t use images',
-    parentId: 'comments',
-    menuId: 'main',
-    dataType: 'comments'
-  },
-  {
-    id: 'mainComment',
-    title: 'Main',
-    parentId: 'comments',
-    menuId: 'main',
-    dataType: 'comments'
   },
 
   // Promises

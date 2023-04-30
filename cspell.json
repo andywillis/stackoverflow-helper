@@ -2,11 +2,14 @@
   "version": "0.2",
   "language": "en-GB",
   "words": [
+    "asyncawait",
     "Epicor",
     "flaticon",
     "Flexbox",
     "Formik",
     "Icongeek",
+    "mcve",
+    "mockdata",
     "Nanoid",
     "paren",
     "parens",
@@ -14,7 +17,9 @@
     "preact",
     "rootname",
     "Stackoverflow",
+    "taglist",
     "testid",
+    "vars",
     "Vitaly",
     "webext"
   ]
