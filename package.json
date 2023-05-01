@@ -3,6 +3,7 @@
   "version": "0.28",
   "description": "Context menu SO helper",
   "scripts": {
+    "sc": "cspell --config cspell.config.js",
     "webext": "web-ext run --firefox=\"C:\\Program Files\\Firefox Developer Edition\\firefox.exe\" -p=\"C:\\Users\\accou\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\kvcr4yus.Development\""
   },
   "author": "Andy Willis",
