@@ -1,11 +1,5 @@
 (function () {
 
-  // browser.storage.onChanged.addListener(function (changes, area) {
-  //   console.log(JSON.stringify(changes), area);
-  // });
-
-  browser.storage.local.set({ data: 'a' });
-
   // Moving the tags
 
   function moveTags() {
@@ -21,10 +15,11 @@
 
   // Pasting
 
-  function paste({ heading, subheading, id }) {
+  function paste({ text }) {
     const active = document.activeElement;
     const el = document.createElement('textarea');
-    el.value = data[heading][subheading][id];
+    el.value = text;
+    // el.value = data[heading][subheading][id];
     el.style.position = 'fixed';
     el.style.left = '-999999px';
     el.style.top = '-999999px';

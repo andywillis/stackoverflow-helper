@@ -3,11 +3,15 @@
   "version": "0.28",
   "description": "Context menu SO helper",
   "scripts": {
-    "webext": "web-ext run --firefox=\"C:\\Program Files\\Firefox Developer Edition\\firefox.exe\" -p=\"C:\\Users\\accou\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\kvcr4yus.Development\""
+    "sc": "cspell --config cspell.config.js",
+    "webext": "web-ext run --firefox=\"C:\\Program Files\\Firefox Developer Edition\\firefox.exe\" -p=\"C:\\Users\\accou\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\uk9okw6h.Development\""
   },
   "author": "Andy Willis",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "7.21.5",
+    "@babel/eslint-parser": "7.21.3",
+    "@babel/plugin-syntax-import-assertions": "7.20.0",
     "cross-env": "7.0.3",
     "eslint": "^8.39.0",
     "eslint-config-airbnb-base": "^15.0.0",
