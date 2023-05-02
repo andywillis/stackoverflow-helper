@@ -3,28 +3,26 @@
   "name": "stackoverflow-helper",
   "version": "0.28",
   "description": "Context menu SO helper",
+  "options_ui": {
+    "page": "options/options.html"
+  },
   "background": {
     "scripts": [
-      "shared/menu.js",
+      "background/config.js",
       "background/buildMenu.js"
     ]
-  },
-  "icons": {
-    "128": "icons/icon-128.png",
-    "64": "icons/icon-64.png",
-    "48": "icons/icon-48.png"
   },
   "content_scripts": [{
     "matches": ["*://*.stackoverflow.com/*"],
     "js": [
-      "shared/data.js",
       "content/css.js",
       "content/stackoverflow-helper.js"
     ]
   }],
-  "options_ui": {
-    "page": "options/options.html",
-    "browser_style": true
+  "icons": {
+    "128": "icons/icon-128.png",
+    "64": "icons/icon-64.png",
+    "48": "icons/icon-48.png"
   },
   "permissions": [
     "menus",

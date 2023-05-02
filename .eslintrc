@@ -1,9 +1,16 @@
 {
   "plugins": ["no-unsanitized"],
   "extends": ["plugin:no-unsanitized/DOM", "airbnb-base"],
+  "parser": "@babel/eslint-parser",
   "parserOptions": {
-    "ecmaVersion": 2020,
-    "sourceType": "module"
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "requireConfigFile": false,
+    "babelOptions": {
+      "plugins": [
+        "@babel/plugin-syntax-import-assertions"
+      ]
+    }
   },
   "env": {
     "jest": true,
@@ -12,8 +19,7 @@
   },
   "globals": {
     "browser": true,
-    "data": true,
-    "menu": true
+    "config": true
   },
   "rules": {
     "no-underscore-dangle": 0,
