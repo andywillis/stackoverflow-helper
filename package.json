@@ -1,6 +1,6 @@
 {
   "name": "stackoverflow-helper",
-  "version": "0.29",
+  "version": "0.30",
   "description": "Context menu SO helper",
   "scripts": {
     "sc": "cspell --config cspell.config.js",
