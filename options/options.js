@@ -1,9 +1,7 @@
 (async function () {
 
-  const qs = selector => document.querySelector(selector);
-
-  const buttons = qs('.buttons');
-  const message = qs('.message');
+  const buttons = document.querySelector('.buttons');
+  const message = document.querySelector('.message');
 
   function pad(str) {
     return str.toString().length === 1 ? `0${str}` : str;
@@ -18,7 +16,7 @@
   }
 
   async function handleExport() {
-    const { config } = await browser.storage.local.get('archive');
+    const { config } = await browser.storage.local.get('config');
     const type = 'application/json';
     const data = JSON.stringify(config === undefined ? {} : config);
     const blob = new Blob([data], { type });
@@ -31,6 +29,7 @@
         conflictAction: 'overwrite'
       });
       browser.downloads.erase({ id });
+      message.textContent = 'Configuration exported';
     } catch (err) {
       console.error(err);
     }
@@ -40,7 +39,7 @@
     const { result: data } = e.target;
     const config = JSON.parse(data);
     await browser.storage.local.set({ config });
-    message.textContent = 'Configuration loaded';
+    message.textContent = 'Configuration imported';
     browser.runtime.sendMessage({ action: 'rebuildMenu' });
   }
 
@@ -63,10 +62,8 @@
 
   function handleClick(e) {
     const { dataset: { action } } = e.target;
-    switch (action) {
-      case 'import': handleImport(); break;
-      case 'export': handleExport(); break;
-    }
+    if (action === 'import') handleImport();
+    if (action === 'export') handleExport();
   }
 
   buttons.addEventListener('click', handleClick, false);
