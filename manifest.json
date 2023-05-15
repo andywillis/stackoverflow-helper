@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "stackoverflow-helper",
-  "version": "0.32",
+  "name": "SO Helper",
+  "version": "0.33",
   "description": "Context menu SO helper",
   "options_ui": {
     "page": "options/options.html"
