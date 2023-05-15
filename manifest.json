@@ -1,14 +1,14 @@
 {
   "manifest_version": 2,
   "name": "stackoverflow-helper",
-  "version": "0.30",
+  "version": "0.32",
   "description": "Context menu SO helper",
   "options_ui": {
     "page": "options/options.html"
   },
   "background": {
     "scripts": [
-      "background/config.js",
+      "shared/config.js",
       "background/buildMenu.js"
     ]
   },
