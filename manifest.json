@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "SO Helper",
-  "version": "0.33",
+  "version": "0.34",
   "description": "Context menu SO helper",
   "options_ui": {
     "page": "options/options.html"
@@ -15,7 +15,8 @@
   "content_scripts": [{
     "matches": ["*://*.stackoverflow.com/*"],
     "js": [
-      "content/css.js",
+      "content/css_general.js",
+      "content/css_buttons.js",
       "content/stackoverflow-helper.js"
     ]
   }],
