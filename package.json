@@ -1,6 +1,6 @@
 {
   "name": "stackoverflow-helper",
-  "version": "0.34",
+  "version": "0.35",
   "description": "Context menu SO helper",
   "license": "CC-BY-NC-SA-4.0",
   "author": "Andy Willis",
@@ -15,10 +15,10 @@
     "@babel/eslint-parser": "7.21.3",
     "@babel/plugin-syntax-import-assertions": "7.20.0",
     "cross-env": "7.0.3",
-    "eslint": "^8.39.0",
+    "eslint": "^8.57.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-no-unsanitized": "^4.0.2",
-    "web-ext": "^7.6.2"
+    "web-ext": "^7.12.0"
   }
 }

@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "SO Helper",
-  "version": "0.34",
+  "version": "0.35",
   "description": "Context menu SO helper",
   "options_ui": {
     "page": "options/options.html"

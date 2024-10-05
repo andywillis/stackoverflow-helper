@@ -7,6 +7,7 @@ const css = `
 .s-post-summary--content-excerpt
   { margin-top: 1em !important; }
 .sidebar-tags { margin-bottom: 1em; }
+.s-tag.post-tag { font-weight: 400};
 `;
 
 const style = document.createElement('style');
